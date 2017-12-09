@@ -248,7 +248,7 @@
                 
             }
             
-            #article-summary img {
+            .clock {
                 
                 height: 15px;
                 position: relative;
@@ -256,7 +256,7 @@
             
             }
             
-            #topic-link {
+            .topic-link {
                 
                 text-decoration: none;
                 color: #B91C21;
@@ -277,13 +277,8 @@
             .date {
                 
                 padding-right: 10px;
-            }
-            
-            .clock {
+                color: #5a5a5a;
                 
-                color: #5A5A5A;
-                width: 270px;
-                float: left;
             }
             
            
@@ -317,9 +312,60 @@
             
             #watch-listen {
                 margin-left: 20px;
+                width: 280px;
+                float: right;
+            }
+            
+            h4 {
+                
+                font-weight: normal;
+                font-size: 20px;
+                
+            }
+            
+            .article-side-image {
+                
+                float: left;
+                width: 90px;
+                margin-right: 10px;
+                
             }
      
+            .watch-listen-link {
+                
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-size: 18px;
+                
+            }
             
+            .watch-listen-link:hover {
+                
+                color: #1167A8;
+            }
+            
+            .side-article {
+                
+                float: right;
+                width: 180px;
+                position: relative;
+                top: -18px;
+            }
+            
+            .no-border {
+                
+                border-left: none;
+                padding: 0;
+                
+                
+            }
+            
+            .border-right {
+                
+                border-right: 1px solid #CCCCCC;
+                
+            }
         </style>
     </head>
 
@@ -463,7 +509,7 @@
 
                         <p>Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.</p>
 
-                        <p><img src="images/clock-img.png"> <span id="date">19 January 2016</span>
+                        <p><img class="clock" src="images/clock-img.png"> <span class="date">19 January 2016</span>
 
                             <a id="topic-link" href="">Technology</a></p>
                 
@@ -486,15 +532,67 @@
                     
                 </div>
             
-                <div class="clear"></div>
                 <div id="watch-listen">
+                    
                     <h4>Watch/Listen</h4>
-            </div> 
-            
-            
-            
-                </div>
+                    
+                    <img class="article-side-image" src="images/article%20one.png">
+                     
+                    <div class="side-article">
+                        
+                        <p><a class="watch-listen-link" href="">UK science chief backs blockchains</a></p>
+
+                        <p><img class="clock" src="images/clock-img.png"> <span class="date">19 January 2016</span>
+
+                    
+                    
+                    </div>
+                    
+                    <div class="clear"></div>
+                    
+                    <img class="article-side-image" src="images/article2.png">
+                     
+                    <div class="side-article">
+                        
+                        <p><a class="watch-listen-link" href="">Drone register gives 'accountability'</a></p>
+
+                        <p><img class="clock" src="images/clock-img.png"> <span class="date border-right">19 January 2016</span>
+
+                        <br>
+                            
+                        <a class="topic-link no-border" href="">Technology</a></p>
             </div>
+                    
+                    <div class="clear"></div>
+                    
+                    <img class="article-side-image" src="images/article3.png">
+                     
+                    <div class="side-article">
+                        
+                        <p><a class="watch-listen-link" href="">SpaceX rocket explodes during landing</a></p>
+
+                        <p><img class="clock" src="images/clock-img.png"> <span class="date border-right">19 January 2016</span>
+
+                        <br>
+                            
+                        <a class="topic-link no-border" href="">Science &amp; Environment</a></p>
+            </div>
+                
+                    <div class="clear"></div>
+                    
+                    <img class="article-side-image" src="images/article4.png">
+                     
+                    <div class="side-article">
+                        
+                        <p><a class="watch-listen-link" href="">What is a VPN service?</a></p>
+
+                        <p><img class="clock" src="images/clock-img.png"> <span class="date border-right">19 January 2016</span>
+
+                        <br>
+                            
+                        <a class="topic-link no-border" href="">Technology</a></p>
+            </div>
+                    
         </div>
 
     </body>
